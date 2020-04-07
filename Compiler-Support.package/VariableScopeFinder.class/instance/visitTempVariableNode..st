@@ -1,3 +1,0 @@
-visiting
-visitTempVariableNode: aNode
-	^nil

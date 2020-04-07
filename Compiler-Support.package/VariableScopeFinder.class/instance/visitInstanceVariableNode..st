@@ -1,3 +1,0 @@
-visiting
-visitInstanceVariableNode: aNode
-	^nil

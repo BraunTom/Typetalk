@@ -1,1 +1,0 @@
-A NarrowerVariableScopeFinder is used to find a smaller scope for an already declared variable.

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parseBinaryMessagePattern" : "WoC 4/6/2020 23:17",
+		"parseKeywordMessagePattern" : "WoC 4/6/2020 22:48",
+		"parseMessagePattern" : "WoC 4/6/2020 22:44",
+		"parseMethodType" : "WoC 4/6/2020 22:52",
+		"parseType" : "WoC 4/6/2020 22:52",
+		"parseTypeIndicatedBy:" : "WoC 4/6/2020 22:52" } }

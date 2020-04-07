@@ -1,0 +1,4 @@
+*typetalk
+parseMethodType
+
+	self parseTypeIndicatedBy: #==>

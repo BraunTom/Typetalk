@@ -1,0 +1,4 @@
+*typetalk
+typeIndicator
+
+	^ #=>

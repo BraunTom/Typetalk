@@ -1,3 +1,0 @@
-accessing
-varName
-	^varName

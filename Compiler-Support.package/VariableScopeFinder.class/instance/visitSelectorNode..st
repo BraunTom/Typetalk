@@ -1,3 +1,0 @@
-visiting
-visitSelectorNode: aNode
-	^nil
