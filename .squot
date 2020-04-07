@@ -1,0 +1,6 @@
+OrderedDictionary {
+	'Compiler-Kernel.package' : #SquotCypressCodeSerializer,
+	'Compiler-ParseNodes.package' : #SquotCypressCodeSerializer,
+	'Compiler-Support.package' : #SquotCypressCodeSerializer,
+	'ShoutCore-Parsing.package' : #SquotCypressCodeSerializer
+}

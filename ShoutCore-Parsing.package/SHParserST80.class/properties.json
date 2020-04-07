@@ -1,0 +1,31 @@
+{
+	"category" : "ShoutCore-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tween 8/16/2004 15:44",
+	"instvars" : [
+		"classOrMetaClass",
+		"source",
+		"workspace",
+		"arguments",
+		"sourcePosition",
+		"currentToken",
+		"currentTokenFirst",
+		"temporaries",
+		"instanceVariables",
+		"errorBlock",
+		"currentTokenSourcePosition",
+		"blockDepth",
+		"bracketDepth",
+		"ranges",
+		"environment",
+		"allowUnderscoreAssignments",
+		"allowUnderscoreSelectors",
+		"parseAMethod" ],
+	"name" : "SHParserST80",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
