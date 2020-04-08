@@ -2,4 +2,4 @@ visiting
 visitReturnNode: aReturnNode
 
 	super visitReturnNode: aReturnNode.
-	self does: self methodType match: aReturnNode dataType
+	self does: aReturnNode dataType match: self methodType

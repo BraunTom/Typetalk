@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"methodType",
-		"typeErrors" ],
+		"typeErrors",
+		"currentClass",
+		"cascadeReceiver" ],
 	"name" : "TypeChecker",
 	"pools" : [
 		 ],

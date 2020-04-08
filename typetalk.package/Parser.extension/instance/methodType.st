@@ -1,4 +1,4 @@
 *typetalk
 methodType
 
-	^ self typeIndicatedBy: self methodTypeIndicator
+	^ self typeIndicatedBy: self class methodTypeIndicator

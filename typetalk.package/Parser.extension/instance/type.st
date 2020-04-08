@@ -1,4 +1,4 @@
 *typetalk
 type
 
-	^ self typeIndicatedBy: self typeIndicator
+	^ self typeIndicatedBy: self class typeIndicator

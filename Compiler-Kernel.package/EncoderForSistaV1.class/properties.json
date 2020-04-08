@@ -1,0 +1,14 @@
+{
+	"category" : "Compiler-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 4/6/2017 10:34",
+	"instvars" : [
+		 ],
+	"name" : "EncoderForSistaV1",
+	"pools" : [
+		 ],
+	"super" : "BytecodeEncoder",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 *typetalk
 parseMethodType
 
-	self parseTypeIndicatedBy: #==>
+	self parseTypeIndicatedBy: Parser methodTypeIndicator 

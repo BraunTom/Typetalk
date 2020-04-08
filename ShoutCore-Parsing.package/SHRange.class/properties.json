@@ -1,0 +1,16 @@
+{
+	"category" : "ShoutCore-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tween 8/16/2004 15:16",
+	"instvars" : [
+		"start",
+		"end",
+		"type" ],
+	"name" : "SHRange",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -2,6 +2,6 @@
 typecheck: aMethodNode
 
 	| checker |
-	checker := TypeChecker new.
+	checker := TypeChecker on: cue class. 
 	aMethodNode accept: checker.
-	^ checker 
+	^ checker
