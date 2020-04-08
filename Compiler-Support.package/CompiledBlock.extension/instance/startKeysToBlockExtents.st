@@ -1,3 +1,0 @@
-*Compiler-support
-startKeysToBlockExtents
-	^self homeMethod startKeysToBlockExtents

@@ -1,3 +1,0 @@
-closure analysis
-locationCounter
-	^locationCounter

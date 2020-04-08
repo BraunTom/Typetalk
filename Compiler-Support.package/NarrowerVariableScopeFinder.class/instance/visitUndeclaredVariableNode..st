@@ -1,3 +1,0 @@
-visiting
-visitUndeclaredVariableNode: aVariableNode
-	^nil

@@ -1,3 +1,0 @@
-visiting
-visitFieldNode: aNode
-	^nil

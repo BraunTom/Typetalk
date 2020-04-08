@@ -1,1 +1,0 @@
-FieldNode handles field access in Tweak, e.g. self fieldName := foo => self fieldName: foo.

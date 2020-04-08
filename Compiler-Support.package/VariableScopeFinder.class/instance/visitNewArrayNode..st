@@ -1,3 +1,0 @@
-visiting
-visitNewArrayNode: aNode
-	^nil

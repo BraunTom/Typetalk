@@ -1,3 +1,0 @@
-closure analysis
-referenceScopesAndIndicesDo: aBinaryBlock
-	self shouldNotImplement
