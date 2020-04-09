@@ -9,4 +9,4 @@ justPattern: aString in: aClass
 	myStream := c sourceStream.
 	self encoder init: c notifying: self.
 	self init: myStream cue: c failBlock: [^ nil].
-	^ (self pattern: false inContext: c context) , {self endOfLastToken}
+	^ (self pattern: false inContext: c context)

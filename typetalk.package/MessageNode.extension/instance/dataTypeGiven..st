@@ -1,7 +1,7 @@
 *typetalk
 dataTypeGiven: aTypeCue
 
-	| receiverClass methodNode |
+	| receiverClass sapt |
 	receiverClass := (TypeChecker on: aTypeCue getClass)
 		lookup: (receiver dataTypeGiven: aTypeCue )
 		else: [^ #any].
@@ -9,7 +9,7 @@ dataTypeGiven: aTypeCue
 		ifTrue: [^ aTypeCue methodType]. "return type we already got"
 	(receiverClass canUnderstand: selector key)
 		ifFalse: [^ #any].
-	methodNode := Parser new 
-		parse: (receiverClass ultimateSourceCodeAt: selector key ifAbsent: [#any])
-		class: receiverClass.
-	^ methodNode dataType
+	sapt := Parser new 
+		justPattern: (receiverClass ultimateSourceCodeAt: selector key ifAbsent: [#any])
+		in: receiverClass.
+	^ sapt at: 4

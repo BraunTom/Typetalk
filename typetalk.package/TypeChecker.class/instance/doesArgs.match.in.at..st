@@ -1,17 +1,16 @@
 checking
 doesArgs: aCollection match: aSymbol in: aClass at: aParseNode
 
-	| sapte requiredArgs cue position |
-	"{selector args priority type endPosition}"
-	sapte := Parser new
+	| sapt requiredArgs cue |
+	"{selector args priority type}"
+	sapt := Parser new
 		justPattern: (aClass ultimateSourceCodeAt: aSymbol ifAbsent: [#any]) 
 		in: aClass.
-	position := sapte at: 5.
-	requiredArgs := sapte at: 2.
+	requiredArgs := sapt at: 2.
 	cue := TypeCue new
 				setClass: aClass;
 				method: aSymbol;
-				methodType: (sapte at: 4);
+				methodType: (sapt at: 4); 
 				yourself.
 	requiredArgs withIndexDo: [:each :index |
 		self 
