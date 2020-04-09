@@ -2,4 +2,7 @@ visiting
 visitAssignmentNode: anAssignmentNode
 
 	super visitAssignmentNode: anAssignmentNode.
-	self does: anAssignmentNode dataType match: anAssignmentNode variable dataType.
+	self 
+		does: (self typeof: anAssignmentNode) 
+		match: (self typeof: anAssignmentNode variable)
+		at: anAssignmentNode

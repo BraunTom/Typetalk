@@ -1,4 +1,4 @@
 *typetalk
-methodType
+methodType ==> Symbol
 
 	^ self typeIndicatedBy: self class methodTypeIndicator

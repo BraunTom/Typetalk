@@ -1,7 +1,7 @@
 *typetalk
 temporaries
 	" [ '|' (variable)* '|' ]"
-	| vars => Collection theActualText |
+	| vars => OrderedCollection theActualText |
 	(self match: #verticalBar) ifFalse: 
 		["no temps"
 		doitFlag ifTrue:

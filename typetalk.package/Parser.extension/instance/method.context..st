@@ -33,6 +33,6 @@ method: doit context: ctxt
 	self interactive ifTrue:
 		[self declareUndeclaredTemps: methodNode.
 		 self removeUnusedTemps: methodNode].
+	"self haltOnce. "
 	self typecheck: methodNode. 
-	self haltOnce. 
 	^methodNode

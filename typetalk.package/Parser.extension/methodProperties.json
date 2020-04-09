@@ -4,11 +4,12 @@
 	"instance" : {
 		"bindArg:type:" : "WoC 4/6/2020 23:53",
 		"blockExpression" : "WoC 4/8/2020 02:36",
-		"method:context:" : "WoC 4/7/2020 02:06",
-		"methodType" : "WoC 4/7/2020 21:29",
+		"justPattern:in:" : "WoC 4/9/2020 03:09",
+		"method:context:" : "WoC 4/9/2020 03:01",
+		"methodType" : "WoC 4/9/2020 02:58",
 		"pattern:inContext:" : "WoC 4/7/2020 02:06",
 		"primaryExpression" : "WoC 4/7/2020 01:05",
-		"temporaries" : "WoC 4/6/2020 23:42",
-		"type" : "WoC 4/7/2020 21:29",
+		"temporaries" : "WoC 4/9/2020 02:54",
+		"type" : "WoC 4/9/2020 02:57",
 		"typeIndicatedBy:" : "WoC 4/7/2020 02:19",
-		"typecheck:" : "WoC 4/8/2020 02:16" } }
+		"typecheck:" : "WoC 4/9/2020 02:58" } }

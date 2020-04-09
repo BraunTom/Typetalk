@@ -1,7 +1,10 @@
 *typetalk
-typecheck: aMethodNode
+typecheck: aMethodNode ==> TypeChecker
 
-	| checker |
-	checker := TypeChecker on: cue class. 
+	| checker => TypeChecker |
+	checker := (TypeChecker on: cue getClass)
+		parser: self;
+		encoder: encoder;
+		yourself. 
 	aMethodNode accept: checker.
 	^ checker

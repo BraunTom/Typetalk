@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"parser",
+		"encoder",
 		"methodType",
 		"typeErrors",
 		"currentClass",
+		"currentMethodPattern",
 		"cascadeReceiver" ],
 	"name" : "TypeChecker",
 	"pools" : [

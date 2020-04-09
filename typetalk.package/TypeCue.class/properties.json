@@ -1,0 +1,16 @@
+{
+	"category" : "typetalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"method",
+		"methodType" ],
+	"name" : "TypeCue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

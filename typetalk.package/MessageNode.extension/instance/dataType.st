@@ -2,7 +2,8 @@
 dataType
 
 	| receiverClass methodNode |
-	receiverClass := TypeChecker 
+	^ #any
+	"receiverClass := TypeChecker 
 		lookup: receiver dataType  
 		else: [^ #any].
 	(receiverClass canUnderstand: selector key)
@@ -10,4 +11,4 @@ dataType
 	methodNode := Parser new 
 		parse: (receiverClass ultimateSourceCodeAt: selector key ifAbsent: [#any])
 		class: receiverClass.
-	^ methodNode dataType
+	^ methodNode dataType"
