@@ -2,10 +2,10 @@
 dataTypeGiven: aTypeCue
 
 	^ name caseOf: {
-		['nil'] -> [#UndefinedObject].
-		['true'] -> [#True].
-		['false'] -> [#False].
-		['thisContext'] -> [#Context].
-		['self'] -> [aTypeCue getClass name].
-		['super'] -> [aTypeCue getClass superclass name]
+		['nil'] -> [Type for: UndefinedObject].
+		['true'] -> [Type for: True].
+		['false'] -> [Type for: False].
+		['thisContext'] -> [Type for: Context].
+		['self'] -> [Type for: aTypeCue getClass].
+		['super'] -> [Type for: aTypeCue getClass superclass]
 	} otherwise: [super dataTypeGiven: aTypeCue]

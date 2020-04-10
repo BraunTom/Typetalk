@@ -1,8 +1,8 @@
 visiting
-visitReturnNode: aReturnNode
+visitReturnNode: node => ReturnNode
 
-	super visitReturnNode: aReturnNode.
+	super visitReturnNode: node.
 	self 
-		does: (self typeof: aReturnNode) 
+		does: (self typeof: node) 
 		match: self methodType
-		at: aReturnNode
+		at: node

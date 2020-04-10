@@ -26,17 +26,19 @@ primaryExpression
 	(hereType == #string or: [hereType == #number or: [hereType == #literal or: [hereType == #character]]])
 		ifTrue: 
 			[ | type |
-			type := hereType caseOf: {
-				[#string] -> [#String].
-				[#number] -> [#Number].
-				[#character] -> [#Character].
-				[#literal] -> [#ByteSymbol]  
-			}.
+			type := Type for: (hereType caseOf: {
+				[#string] -> [String].
+				[#number] -> [Number].
+				[#character] -> [Character].
+				[#literal] -> [ ByteSymbol]  
+			}).
 			parseNode := encoder encodeLiteral: self advance type: type.
 			^true].
 	(here == #- and: [tokenType == #number and: [1 + hereEnd = mark]])
 		ifTrue: 
 			[self advance.
-			parseNode := encoder encodeLiteral: self advance negated type: #Number.
+			parseNode := encoder 
+							encodeLiteral: self advance negated 
+							type: (Type for: Number).
 			^true].
 	^false

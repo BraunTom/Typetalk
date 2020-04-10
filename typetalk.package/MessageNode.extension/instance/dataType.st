@@ -1,8 +1,7 @@
 *typetalk
 dataType
 
-	| receiverClass methodNode |
-	^ #any
+	^ Type any
 	"receiverClass := TypeChecker 
 		lookup: receiver dataType  
 		else: [^ #any].

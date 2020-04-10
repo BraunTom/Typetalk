@@ -1,4 +1,4 @@
 resolve type
-typeof: aParseNode
+typeof: aParseNode => ParseNode ==> Type
 
 	^ self typeof: aParseNode usingCue: self cue

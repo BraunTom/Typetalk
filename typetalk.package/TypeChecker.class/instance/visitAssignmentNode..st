@@ -1,8 +1,8 @@
 visiting
-visitAssignmentNode: anAssignmentNode
+visitAssignmentNode: node => AssignmentNode
 
-	super visitAssignmentNode: anAssignmentNode.
+	super visitAssignmentNode: node.
 	self 
-		does: (self typeof: anAssignmentNode) 
-		match: (self typeof: anAssignmentNode variable)
-		at: anAssignmentNode
+		does: (self typeof: node) 
+		match: (self typeof: node variable)
+		at: node

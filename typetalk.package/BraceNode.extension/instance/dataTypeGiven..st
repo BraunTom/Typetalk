@@ -1,4 +1,4 @@
 *typetalk
 dataTypeGiven: aTypeCue
 
-	^ #Array
+	^ Type for: Array

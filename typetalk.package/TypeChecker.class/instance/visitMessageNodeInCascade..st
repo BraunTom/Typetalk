@@ -1,16 +1,16 @@
 visiting
-visitMessageNodeInCascade: aMessageNode
+visitMessageNodeInCascade: node => MessageNode
 
 	(self canResolveTypeOf: self cascadeReceiver)
 		ifTrue: [	 | receiverClass |
-				receiverClass := self lookup: (self typeof: self cascadeReceiver).
+				receiverClass := ((self typeof: node receiver) resolveWith: self) value.
 				self 
-					doesMethod: aMessageNode selector key
+					doesMethod: node selector key
 					existIn: receiverClass
-					at: aMessageNode.
+					at: node.
 				self 
-					doesArgs: aMessageNode arguments
-					match: aMessageNode selector key 
+					doesArgs: node arguments
+					match: node selector key 
 					in: receiverClass
-					at: aMessageNode].
-	super visitMessageNodeInCascade: aMessageNode.
+					at: node].
+	super visitMessageNodeInCascade: node

@@ -6,8 +6,8 @@ pattern: fromDoit inContext: ctxt
 	doitFlag := fromDoit.
 	fromDoit ifTrue:
 		[^ctxt == nil
-			ifTrue: [{#DoIt. {}. 1. #any}]
-			ifFalse: [{#DoItIn:. {encoder encodeVariable: encoder doItInContextName}. 3. #any}]].
+			ifTrue: [{#DoIt. {}. 1. Type any}]
+			ifFalse: [{#DoItIn:. {encoder encodeVariable: encoder doItInContextName}. 3. Type any}]].
 
 	hereType == #word ifTrue: [^ {self advance asSymbol. {}. 1. self methodType}].
 

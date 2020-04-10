@@ -1,6 +1,6 @@
 visiting
-visitMethodNode: aMethodNode
+visitMethodNode: node => MethodNode
 
-	self methodType: (aMethodNode dataTypeFor: self currentClass).
-	self currentMethodPattern: aMethodNode selectorOrFalse.
-	super visitMethodNode: aMethodNode 
+	self methodType: (self typeof: node).
+	self currentMethodPattern: node selectorOrFalse.
+	super visitMethodNode: node 

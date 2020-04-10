@@ -1,4 +1,4 @@
 *typetalk
 dataTypeGiven: aTypeCue
 	
-	^ dataType ifNil: [#any]
+	^ dataType ifNil: [Type any] 

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"any" : "WoC 4/10/2020 19:43",
+		"for:" : "WoC 4/10/2020 19:42",
+		"unresolved:" : "WoC 4/10/2020 20:05" },
+	"instance" : {
+		"=" : "WoC 4/10/2020 20:31",
+		"isAny" : "WoC 4/9/2020 13:24",
+		"isUnresolved" : "WoC 4/10/2020 20:04",
+		"isUnresolved:" : "WoC 4/10/2020 20:03",
+		"matches:ifFalse:" : "WoC 4/10/2020 23:33",
+		"resolveWith:" : "WoC 4/10/2020 22:08",
+		"value" : "WoC 4/9/2020 13:23",
+		"value:" : "WoC 4/9/2020 13:23" } }

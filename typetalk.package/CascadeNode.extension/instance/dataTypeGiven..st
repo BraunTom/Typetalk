@@ -1,4 +1,4 @@
 *typetalk
 dataTypeGiven: aTypeCue
 
-	^ messages last dataType: receiver 
+	^ messages last dataTypeGiven: aTypeCue receiver: receiver

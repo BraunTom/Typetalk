@@ -1,8 +1,8 @@
 *typetalk
-dataTypeGiven: aTypeCue
+dataTypeGiven: aTypeCue receiver: anObject
 
 	|  checker receiverClass receiverType sapt |
-	receiverType := receiver dataTypeGiven: aTypeCue.
+	receiverType := anObject dataTypeGiven: aTypeCue.
 	receiverType isAny 
 		ifTrue: [^ Type any].
 		

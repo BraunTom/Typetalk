@@ -1,6 +1,6 @@
 visiting
-visitCascadeNode: aCascadeNode
+visitCascadeNode: node => CascadeNode 
 
 	self 
-		withReceiver: aCascadeNode receiver  
-		do: [super visitCascadeNode: aCascadeNode]
+		withReceiver: node receiver  
+		do: [super visitCascadeNode: node]

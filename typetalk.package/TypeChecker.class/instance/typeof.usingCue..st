@@ -1,4 +1,4 @@
 resolve type
-typeof: aParseNode usingCue: aTypeCue 
+typeof: aParseNode => ParseNode usingCue: aTypeCue => TypeCue
 
 	^ aParseNode dataTypeGiven: aTypeCue

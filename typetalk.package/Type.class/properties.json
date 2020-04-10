@@ -1,0 +1,15 @@
+{
+	"category" : "typetalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"isUnresolved" ],
+	"name" : "Type",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

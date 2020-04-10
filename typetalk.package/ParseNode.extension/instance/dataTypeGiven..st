@@ -1,4 +1,4 @@
 *typetalk
 dataTypeGiven: aTypeCue
 
-	^ #any
+	^ Type any

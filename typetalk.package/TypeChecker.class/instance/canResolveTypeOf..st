@@ -1,4 +1,4 @@
 resolve type
-canResolveTypeOf: aParseNode
+canResolveTypeOf: aParseNode => ParseNode ==> Boolean
 
-	^ (aParseNode dataTypeGiven: self cue) ~= #any
+	^ (aParseNode dataTypeGiven: self cue) isAny not 
