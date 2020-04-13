@@ -9,7 +9,7 @@ dataTypeGiven: aTypeCue receiver: anObject
 	checker := TypeChecker on: aTypeCue getClass.
 	receiverClass :=  (receiverType resolveWith: checker) value.
 	(receiverClass = aTypeCue getClass and: [aTypeCue method = selector key])
-		ifTrue: [^ aTypeCue methodType]. "return type we already got"
+		ifTrue: [^ aTypeCue methodType]. "return type we already got; recursion"
 	(receiverClass canUnderstand: selector key)
 		ifFalse: [^ Type any].
 	sapt := Parser new 
