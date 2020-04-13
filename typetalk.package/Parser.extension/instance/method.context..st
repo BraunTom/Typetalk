@@ -33,5 +33,6 @@ method: doit context: ctxt
 	self interactive ifTrue:
 		[self declareUndeclaredTemps: methodNode.
 		 self removeUnusedTemps: methodNode].
-	self typecheck: methodNode.  
+	Typetalk isEnabled 
+		ifTrue: [self typecheck: methodNode].
 	^methodNode

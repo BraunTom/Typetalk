@@ -5,6 +5,6 @@ typecheck: aMethodNode
 	checker := (TypeChecker on: cue getClass)
 		parser: self;
 		encoder: encoder;
-		yourself. 
+		yourself.  
 	aMethodNode accept: checker.
 	^ checker 

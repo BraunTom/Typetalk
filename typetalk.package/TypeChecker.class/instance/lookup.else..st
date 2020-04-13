@@ -1,9 +1,9 @@
 lookup
-lookup: aSymbol else: aBlock
+lookup: aSymbol else: aBlock 
 
-	self keywords 
+	self keywords
 		at: aSymbol
 		ifPresent: [:value | ^ value].
-	^ Smalltalk 
-		at: aSymbol 
-		ifAbsent: [aBlock value].
+	^ Smalltalk
+		at: aSymbol
+		ifAbsent: [aBlock value]

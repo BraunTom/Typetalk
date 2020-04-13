@@ -3,11 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Enabled" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Typetalk",
+	"name" : "TypeDeclarations",
 	"pools" : [
 		 ],
 	"super" : "Object",
