@@ -5,5 +5,6 @@ keywords
 		#any -> Object.
 		#block -> BlockClosure.
 		#nil -> UndefinedObject. 
-		#self -> self currentClass
+		#self -> self currentClass.
+		#super -> self currentClass superclass
 	}

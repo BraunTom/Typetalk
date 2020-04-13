@@ -6,6 +6,6 @@ dataTypeGiven: aTypeCue
 		['true'] -> [Type for: True].
 		['false'] -> [Type for: False].
 		['thisContext'] -> [Type for: Context].
-		['self'] -> [Type for: aTypeCue getClass].
-		['super'] -> [Type for: aTypeCue getClass superclass]
+		['self'] -> [Type self].
+		['super'] -> [Type super]
 	} otherwise: [super dataTypeGiven: aTypeCue]
