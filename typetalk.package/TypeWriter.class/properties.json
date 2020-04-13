@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "WoC 4/13/2020 22:21",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TypeDeclarations",
+	"name" : "TypeWriter",
 	"pools" : [
 		 ],
 	"super" : "Object",

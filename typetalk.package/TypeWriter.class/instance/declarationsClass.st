@@ -1,0 +1,4 @@
+accessing
+declarationsClass
+
+	^ TypeDeclarations
