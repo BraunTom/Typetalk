@@ -1,4 +1,0 @@
-accessing
-declarationsClass
-
-	^ TypeDeclarations
