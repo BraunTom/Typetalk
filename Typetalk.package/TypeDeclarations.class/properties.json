@@ -1,0 +1,14 @@
+{
+	"category" : "Typetalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "WoC 4/13/2020 22:21",
+	"instvars" : [
+		 ],
+	"name" : "TypeDeclarations",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

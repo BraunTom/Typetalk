@@ -1,0 +1,14 @@
+{
+	"category" : "Typetalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Enabled" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Typetalk",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

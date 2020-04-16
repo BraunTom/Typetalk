@@ -1,0 +1,14 @@
+{
+	"category" : "Typetalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TypeWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
