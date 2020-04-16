@@ -1,4 +1,4 @@
 OrderedDictionary {
 	'BaselineOfTypetalk.package' : #SquotCypressCodeSerializer,
-	'typetalk.package' : #SquotCypressCodeSerializer
+	'Typetalk.package' : #SquotCypressCodeSerializer
 }
