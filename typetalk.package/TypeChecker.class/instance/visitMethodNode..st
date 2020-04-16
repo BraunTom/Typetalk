@@ -1,5 +1,5 @@
 visiting
-visitMethodNode: node => MethodNode
+visitMethodNode: node
 
 	self methodType: (self typeof: node).
 	self currentMethodPattern: node selectorOrFalse.

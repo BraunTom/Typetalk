@@ -1,5 +1,5 @@
 visiting
-visitReturnNode: node => ReturnNode
+visitReturnNode: node
 
 	super visitReturnNode: node.
 	self 

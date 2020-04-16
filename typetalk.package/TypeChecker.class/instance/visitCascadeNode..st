@@ -1,5 +1,5 @@
 visiting
-visitCascadeNode: node => CascadeNode 
+visitCascadeNode: node
 
 	self 
 		withReceiver: node receiver  

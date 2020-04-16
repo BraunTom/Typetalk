@@ -1,5 +1,5 @@
 *typetalk
-typeIndicatedBy: anIndicator => Symbol ==> Symbol
+typeIndicatedBy: anIndicator
 
 	^ (self matchToken: anIndicator)
 		ifTrue: [ | symbol |
