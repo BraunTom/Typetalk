@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfTypetalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfTypetalk",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
