@@ -1,5 +1,5 @@
 visiting
-visitMessageNodeInCascade: node => MessageNode
+visitMessageNodeInCascade: node
 
 	(self canResolveTypeOf: self cascadeReceiver)
 		ifTrue: [	 | receiverClass |

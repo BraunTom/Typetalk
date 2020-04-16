@@ -1,4 +1,4 @@
 *typetalk
-type ==> Symbol
+type
 
 	^ self typeIndicatedBy: self class typeIndicator

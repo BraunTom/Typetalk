@@ -1,4 +1,4 @@
 accessing
-methodType ==> Class
+methodType
 	
 	^ methodType  

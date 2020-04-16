@@ -1,5 +1,5 @@
 *typetalk
-parseTypeIndicatedBy: anIndicator => Symbol
+parseTypeIndicatedBy: anIndicator
 
 	currentToken = anIndicator
 		ifTrue: [

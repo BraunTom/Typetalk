@@ -1,5 +1,5 @@
 visiting
-visitMessageNode: node => MessageNode
+visitMessageNode: node
 
 	(self canResolveTypeOf: node receiver)
 		ifTrue: [	 | receiverClass |
