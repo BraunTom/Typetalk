@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #typetalk!
+SystemOrganization addCategory: #Typetalk!

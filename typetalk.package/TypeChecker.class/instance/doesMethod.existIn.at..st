@@ -1,5 +1,5 @@
 checking
-doesMethod: aSymbol => Symbol existIn: aClass => Class at: aParseNode => ParseNode
+doesMethod: aSymbol existIn: aClass at: aParseNode
 
 	(aClass canUnderstand: aSymbol)
 		ifFalse: [self 

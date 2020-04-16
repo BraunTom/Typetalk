@@ -1,5 +1,5 @@
 {
-	"category" : "typetalk",
+	"category" : "Typetalk",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -9,7 +9,6 @@
 		"parser",
 		"encoder",
 		"methodType",
-		"typeErrors",
 		"currentClass",
 		"currentMethodPattern",
 		"cascadeReceiver" ],

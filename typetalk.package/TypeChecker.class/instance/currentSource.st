@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 currentSource
 
 	^ (self parser instVarNamed: 'source') contents
