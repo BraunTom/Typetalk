@@ -1,10 +1,11 @@
 *typetalk
 parseBlockArguments
-	[currentTokenFirst == $:] 
-		whileTrue: [
-			self scanPast: #blockArgColon.
-			self failUnless: self isName.
-			self scanPast: #blockPatternArg.
-			self parseType].
-	currentTokenFirst == $| 
-		ifTrue: [^self scanPast: #blockArgsBar]
+
+	currentTokenFirst == $: ifFalse: [ ^self ].
+	[ currentTokenFirst == $: ] whileTrue: [
+		self
+			scanPast: #blockArgColon;
+			parseArgument: #blockPatternArg;
+			parseType ].
+	(self parseVerticalBarForTemporaries: #blockArgsBar) ifFalse: [
+		self fail ": Missing block args bar" ]

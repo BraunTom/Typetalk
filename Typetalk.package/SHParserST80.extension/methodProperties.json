@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parseBinaryMessagePattern" : "WoC 4/6/2020 23:17",
-		"parseBlockArguments" : "WoC 4/9/2020 12:20",
-		"parseKeywordMessagePattern" : "WoC 4/6/2020 22:48",
-		"parseMessagePattern" : "WoC 4/6/2020 22:44",
+		"isName" : "WoC 4/17/2020 12:42",
+		"parseBinaryMessagePattern" : "WoC 4/17/2020 12:44",
+		"parseBlockArguments" : "WoC 4/17/2020 12:51",
+		"parseKeywordMessagePattern" : "WoC 4/17/2020 12:45",
+		"parseMessagePattern" : "WoC 4/17/2020 12:45",
 		"parseMethodType" : "WoC 4/7/2020 21:30",
 		"parseType" : "WoC 4/7/2020 21:30",
-		"parseTypeIndicatedBy:" : "WoC 4/17/2020 01:08" } }
+		"parseTypeIndicatedBy:" : "WoC 4/17/2020 01:08",
+		"parseUnaryMessagePattern" : "WoC 4/17/2020 12:45" } }

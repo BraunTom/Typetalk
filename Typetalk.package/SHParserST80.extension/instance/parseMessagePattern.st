@@ -1,13 +1,10 @@
 *typetalk
 parseMessagePattern   
 
-	self isName 
-		ifTrue: [self parseUnaryMessagePattern]
-		ifFalse: [
-			self isBinary
-				ifTrue:[self parseBinaryMessagePattern]
-				ifFalse:[
-					self failUnless: self isKeyword.
-					self parseKeywordMessagePattern]].
+	self currentTokenType 
+		caseOf: {
+			[ #name ] -> [ self parseUnaryMessagePattern ].
+			[ #binary ] -> [ self parseBinaryMessagePattern ].
+			[ #keyword ] -> [ self parseKeywordMessagePattern ] }
+		otherwise: [ self fail ].
 	self parseMethodType
-	

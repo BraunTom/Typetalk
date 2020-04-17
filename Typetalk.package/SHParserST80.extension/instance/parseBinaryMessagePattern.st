@@ -1,8 +1,7 @@
 *typetalk
-parseBinaryMessagePattern   
+parseBinaryMessagePattern
 
-   	self scanPast:  #patternBinary. 
-	self failUnless: self isName.
-	self scanPast: #patternArg.
-	self parseType.
-
+	self
+		scanPast: #patternBinary;
+		parseArgument: #patternArg;
+		parseType
