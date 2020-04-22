@@ -7,7 +7,7 @@ format: anArray for: aClass
 		{2} 
 	\}' 
 		format: {
-			aClass name. 
+			self methodNameFrom: aClass name. 
 			((anArray sorted: [:a :b | a key <= b key]) collect: [:each | self stringFrom: each])
 				reduce: [:a :b | a , $. , Character cr, Character tab , Character tab , b]
 		}

@@ -2,7 +2,7 @@ visiting
 visitMethodNode: node
 
 	self methodType: (self typeof: node).
-	self currentMethodPattern: node selectorOrFalse.
+	self currentMethodPattern: node selector.
 	super visitMethodNode: node. 
 	TypeDeclarations 
 		write: {self methodType serialize} , {}

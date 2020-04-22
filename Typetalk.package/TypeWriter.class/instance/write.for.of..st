@@ -1,12 +1,13 @@
 write
 write: aCollection for: aSymbol of: aClass
 
-	| code |
+	| code methodName |
+	methodName := self methodNameFrom: aClass name.
 	code := self 
-		format: ((self declarationsClass canUnderstand: aClass name)
+		format: ((self declarationsClass canUnderstand: methodName)
 			ifTrue: [| methods declarations |
 				declarations := self declarationsClass new.
-				methods := declarations perform: aClass name.
+				methods := declarations perform: methodName.
 				methods at: aSymbol put: aCollection.
 				methods associations]
 			ifFalse: [{aSymbol => aCollection}])
