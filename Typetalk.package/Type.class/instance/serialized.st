@@ -1,5 +1,4 @@
 as yet unclassified
-serialize
+serialized
 
-	self logEntry.
 	^ self value
