@@ -1,4 +1,4 @@
-as yet unclassified
+error handling
 notify: aString at: aParseNode
 
 	self 

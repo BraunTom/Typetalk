@@ -1,4 +1,4 @@
 accessing
 cascadeReceiver
 	
-	^ cascadeReceiver
+	^ self cascadeReceivers last

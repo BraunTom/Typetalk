@@ -10,4 +10,4 @@ keywords
 		#instance -> (self currentClass isMeta
 						ifTrue: [self currentClass theNonMetaClass]
 						ifFalse: [self currentClass])
-	}
+	} 

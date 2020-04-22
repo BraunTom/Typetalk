@@ -1,6 +1,6 @@
 as yet unclassified
 withReceiver: anObject do: aBlock
 
-	self cascadeReceiver: anObject.
+	self pushCascadeReceiver: anObject.
 	aBlock value.
-	self cascadeReceiver: nil
+	self popCascadeReceiver
