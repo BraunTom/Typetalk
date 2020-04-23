@@ -10,6 +10,10 @@ visitAssignmentNode: node
 		match: (self typeof: variable)
 		at: node.
 	node variable isTemp
-		ifTrue: [self tempTypes 
-					at: variable
-					put: returnType]
+		ifTrue: [ | type |
+			type := self tempStack
+						at: variable
+						ifAbsent: [self tempStack at: variable put: returnType. ^ self].
+			type ~= returnType
+				ifTrue: [self tempStack at: variable put: Type any] 
+			]

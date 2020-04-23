@@ -13,7 +13,7 @@
 		"currentMethodPattern",
 		"cascadeReceivers",
 		"returnTypes",
-		"tempTypes" ],
+		"tempStack" ],
 	"name" : "TypeChecker",
 	"pools" : [
 		 ],

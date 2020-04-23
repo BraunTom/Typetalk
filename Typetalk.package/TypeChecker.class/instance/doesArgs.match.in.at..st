@@ -14,7 +14,7 @@ doesArgs: aCollection match: aSymbol in: aClass at: aParseNode
 				setClass: aClass;
 				method: aSymbol;
 				methodType: (sapt at: 4);
-				tempTypes: self tempTypes;
+				tempStack: self tempStack;
 				yourself.
 	requiredArgs withIndexDo: [:each :index |
 		self 

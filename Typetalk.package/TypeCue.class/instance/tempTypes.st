@@ -1,4 +1,0 @@
-accessing
-tempTypes
-
-	^ tempTypes

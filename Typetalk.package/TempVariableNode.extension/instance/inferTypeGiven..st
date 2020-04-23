@@ -5,7 +5,7 @@ inferTypeGiven: aTypeCue
 	type := super inferTypeGiven: aTypeCue.
 	self haltOnce.
 	^ type isAny
-		ifTrue: [aTypeCue tempTypes 
+		ifTrue: [aTypeCue tempStack  
 					at: self 
 					ifAbsent: [Type any]]
 		ifFalse: [type] 

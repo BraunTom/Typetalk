@@ -3,14 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Enabled" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"class",
-		"method",
-		"methodType",
-		"tempStack" ],
-	"name" : "TypeCue",
+		"collection" ],
+	"name" : "TypeStack",
 	"pools" : [
 		 ],
 	"super" : "Object",
