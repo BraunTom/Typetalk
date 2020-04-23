@@ -1,4 +1,4 @@
-as yet unclassified
+add/remove
 addReturnType: aType
 
 	self returnTypes add: aType

@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"class:" : "WoC 4/23/2020 12:54",
 		"getClass" : "WoC 4/8/2020 13:37",
 		"method" : "WoC 4/8/2020 13:37",
 		"method:" : "WoC 4/8/2020 13:37",
 		"methodType" : "WoC 4/8/2020 17:42",
 		"methodType:" : "WoC 4/8/2020 17:42",
-		"setClass:" : "WoC 4/8/2020 13:37" } }
+		"setClass:" : "WoC 4/8/2020 13:37",
+		"tempTypes" : "WoC 4/23/2020 12:54",
+		"tempTypes:" : "WoC 4/23/2020 12:54" } }

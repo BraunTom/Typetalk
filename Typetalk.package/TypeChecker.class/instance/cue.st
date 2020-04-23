@@ -5,4 +5,5 @@ cue
 		setClass: self currentClass;
 		method: self currentMethodPattern;
 		methodType: self methodType;
+		tempTypes: self tempTypes;
 		yourself

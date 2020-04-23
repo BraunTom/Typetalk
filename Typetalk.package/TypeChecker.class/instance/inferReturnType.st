@@ -1,4 +1,4 @@
-as yet unclassified
+type inferring
 inferReturnType
 
 	^ self methodType isAny

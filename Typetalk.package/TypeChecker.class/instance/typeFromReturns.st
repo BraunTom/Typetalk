@@ -1,4 +1,4 @@
-as yet unclassified
+type inferring
 typeFromReturns
 
 	self returnTypes size = 1
