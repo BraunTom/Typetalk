@@ -1,7 +1,8 @@
 *typetalk
-dataTypeGiven: aTypeCue
+inferTypeGiven: aTypeCue
+	
 	| type |
-	type := super dataTypeGiven: aTypeCue.
+	type := super inferTypeGiven: aTypeCue.
 	self haltOnce.
 	^ type isAny
 		ifTrue: [aTypeCue tempTypes 

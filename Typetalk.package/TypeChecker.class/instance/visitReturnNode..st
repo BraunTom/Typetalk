@@ -2,8 +2,8 @@ visiting
 visitReturnNode: node
 
 	super visitReturnNode: node.
-	self addReturnType: (self typeof: node).
+	self addReturnType: (self inferTypeOf: node).
 	self 
-		does: (self typeof: node) 
+		does: (self inferTypeOf: node) 
 		match: self methodType
 		at: node

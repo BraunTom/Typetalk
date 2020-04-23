@@ -3,7 +3,7 @@ visitMessageNodeInCascade: node
 
 	(self canResolveTypeOf: self cascadeReceiver)
 		ifTrue: [	 | receiverClass |
-				receiverClass := ((self typeof: self cascadeReceiver) resolveWith: self) value.
+				receiverClass := ((self inferTypeOf: self cascadeReceiver) resolveWith: self) value.
 				self 
 					doesMethod: node selector key
 					existIn: receiverClass

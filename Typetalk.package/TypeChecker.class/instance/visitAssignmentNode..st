@@ -4,7 +4,7 @@ visitAssignmentNode: node
 	| variable returnType |
 	super visitAssignmentNode: node.
 	variable := node variable.
-	returnType := self typeof: node.
+	returnType := self inferTypeOf: node.
 	self 
 		does: returnType
 		match: (self typeof: variable)

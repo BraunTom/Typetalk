@@ -18,7 +18,7 @@ doesArgs: aCollection match: aSymbol in: aClass at: aParseNode
 				yourself.
 	requiredArgs withIndexDo: [:each :index |
 		self 
-			does: (self typeof: (aCollection at: index)) 
+			does: (self inferTypeOf: (aCollection at: index)) 
 			match: (self typeof: each usingCue: cue)
 			else: [:given :required |
 				self 
