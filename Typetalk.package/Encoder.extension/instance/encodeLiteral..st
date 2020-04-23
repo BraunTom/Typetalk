@@ -1,6 +1,6 @@
 *typetalk
-encodeLiteral: object type: aSymbol
-
+encodeLiteral: object
+	
 	| node |
 	node := self
 		name: object
@@ -8,5 +8,5 @@ encodeLiteral: object type: aSymbol
 		class: LiteralNode
 		type: LdLitType
 		set: litSet.
-	node dataType: aSymbol.
+	node dataType: (self typeForLiteral: object class).
 	^ node

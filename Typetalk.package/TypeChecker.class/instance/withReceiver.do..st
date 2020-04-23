@@ -3,4 +3,4 @@ withReceiver: anObject do: aBlock
 
 	self pushCascadeReceiver: anObject.
 	aBlock value.
-	self popCascadeReceiver
+	self popCascadeReceiver  
