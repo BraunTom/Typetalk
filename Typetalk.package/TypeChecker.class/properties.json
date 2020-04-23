@@ -11,7 +11,8 @@
 		"methodType",
 		"currentClass",
 		"currentMethodPattern",
-		"cascadeReceivers" ],
+		"cascadeReceivers",
+		"returnTypes" ],
 	"name" : "TypeChecker",
 	"pools" : [
 		 ],

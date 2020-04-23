@@ -5,6 +5,6 @@ visitMethodNode: node
 	self currentMethodPattern: node selector.
 	super visitMethodNode: node. 
 	TypeDeclarations 
-		write: {self methodType serialized} , {}
+		write: {self inferReturnType serialized} , {}
 		for: self currentMethodPattern 
 		of: self currentClass
